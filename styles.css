@@ -1,0 +1,73 @@
+body {
+  background-image: url("images/dogfront.jpg");
+  background-size: cover; }
+
+.logs {
+  padding-top: 50px;
+  margin-left: 75%;
+  margin-top: 15%; }
+
+input {
+  border-radius: 5px; }
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+
+.element {
+  font-size: 1.5em;
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  font-family: "proxima-nova", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: inline; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
+.userPup {
+  display: none; }
+
+/* #createPup {
+
+  display: none;
+} */
+.dogPound {
+  display: none; }
+
+.dogProfile {
+  display: none; }
